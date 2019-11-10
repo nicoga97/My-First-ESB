@@ -173,6 +173,7 @@ modules.xml
 hs_err_pid*
 
 ### Maven ###
+/workspace.xml
 target/
 pom.xml.tag
 pom.xml.releaseBackup
