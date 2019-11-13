@@ -20,7 +20,7 @@ public class Producer {
     public void run(){
         CamelContext context = new DefaultCamelContext();
         //String brokerURL = args[0];
-        ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://ec2-34-205-157-153.compute-1.amazonaws.com:61616?jms.useAsyncSend=true");
+        ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://ec2-54-205-84-163.compute-1.amazonaws.com:61616?jms.useAsyncSend=true");
         try {
             // Create a Connection
             Connection connection = connectionFactory.createConnection("smx","smx");

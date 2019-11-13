@@ -13,7 +13,7 @@ public  class Consumer implements Runnable, ExceptionListener {
         try {
 
             // Create a ConnectionFactory
-            ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://ec2-34-205-157-153.compute-1.amazonaws.com:61616?jms.useAsyncSend=true");
+            ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://ec2-54-205-84-163.compute-1.amazonaws.com:61616?jms.useAsyncSend=true");
 
             // Create a Connection
             Connection connection = connectionFactory.createConnection("smx", "smx");
